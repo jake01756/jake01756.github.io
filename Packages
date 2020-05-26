@@ -1,15 +1,17 @@
-Package: 
-Section: 
-Maintainer: 
+Package: sudo
+Version: 1.8.27-3
 Architecture: iphoneos-arm
-Version: 
-Depends: mobilesubstrate
-Filename: debs//
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 
-Description: 
-Name: 
-Author: name <email@email.com>
-
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 2736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/sudo_1.8.27-3_iphoneos-arm.deb
+Size: 271242
+MD5sum: fccf9e2b36bdd20122d49e303f8c98f9
+SHA1: 8b5e0ed3336a4e3ba115a83f924370ffa3759c1f
+SHA256: bad8ff83f30b38f414ead8a9c867e7952f576e1ec6c33c365d80cf3cb61c5064
+Section: Administration
+Priority: standard
+Description: temporarily assume root priviledges
+Depiction: temporarily assume root priviledges
+Name: Sudo
+Tag: purpose::console, role::hacker
