@@ -1,17 +1,28 @@
-Package: sudo
-Version: 1.8.27-3
+Package: com.supermamon.newpackage
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 2736
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/sudo_1.8.27-3_iphoneos-arm.deb
-Size: 271242
-MD5sum: fccf9e2b36bdd20122d49e303f8c98f9
-SHA1: 8b5e0ed3336a4e3ba115a83f924370ffa3759c1f
-SHA256: bad8ff83f30b38f414ead8a9c867e7952f576e1ec6c33c365d80cf3cb61c5064
-Section: Administration
-Priority: standard
-Description: temporarily assume root priviledges
-Depiction: temporarily assume root priviledges
-Name: Sudo
-Tag: purpose::console, role::hacker
+Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: This is a sample new package. Firmware should be greater than 7.0
+Name: New Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: This is a sample old package. Firmware should be lower than 7.0
+Name: Old Package
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+
